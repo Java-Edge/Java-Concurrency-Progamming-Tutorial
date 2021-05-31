@@ -25,7 +25,7 @@ public final class ReadWriteLock {
             while (readingReaders > 0 || writingWriters > 0) {
                 wait();
             }
-        } finally {1
+        } finally {
           waitingWriters--;                   // (B)���ڵȴ�д����߳�������1
         }
         writingWriters++;                       //  (C)ʵ������д����߳�������1
