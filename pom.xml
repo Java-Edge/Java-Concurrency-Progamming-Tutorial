@@ -85,7 +85,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.0.0-beta3</version>
+            <version>7.5.1</version>
             <scope>compile</scope>
         </dependency>
 
